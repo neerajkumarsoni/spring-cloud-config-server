@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/neerajkumarsoni/cloud-configurations
+          username: ${bitbucket_user}
+          password: ${bitbucket_pwd}
+          search-paths:  auth-service, car-service, bike-service
+          force-pull: true
+server:
+  port: 8888
