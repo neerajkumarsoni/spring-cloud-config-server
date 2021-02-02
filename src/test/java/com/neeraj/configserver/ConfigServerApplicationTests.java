@@ -1,4 +1,4 @@
-package com.frostinteractive.configserver;
+package com.neeraj.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
